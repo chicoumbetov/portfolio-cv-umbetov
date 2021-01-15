@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React. Create React app and publish
+          Learn React. Create React app and publish. Ашылады ма?
         </a>
       </header>
     </div>
