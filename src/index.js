@@ -6,8 +6,8 @@ import ReactDOM from 'react-dom';
 //import './components/css/normalize.css'
 ////import './animate.css';
 import 'bootstrap/dist/css/bootstrap.css'; //about 2 column
-import './img/icons/css/ionicons.css';    //contact section icon
-//import './img/font-awesome/css/font-awesome.css'; 
+import './img/icons/css/ionicons.css';    //contact section
+import './img/font-awesome/css/font-awesome.css';
 //import 'lightbox2/dist/css/lightbox.min.css'
 import './style.css'; //about separate box
 
@@ -24,7 +24,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 //import components
 import Navbar from './components/navbar.jsx';
-//import Intro from './components/intro.jsx';
+import Intro from './components/intro.jsx';
 import About from './components/about.jsx';
 import Portfolio from './components/portfolio.jsx';
 import Contact from './components/contact.jsx';
@@ -37,6 +37,7 @@ import Education from './components/education';
 ReactDOM.render(
     <React.Fragment>
         <Navbar />
+        <Intro />
         <About />
         <Portfolio />
         <Education />

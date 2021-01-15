@@ -86,6 +86,9 @@ class About extends React.Component {
               <div className="box-shadow-full">
                 <div className="row">
                   <div className="col-md-6">
+                    <div className="title-box-2">
+                      <h5 className="title-left">Skills</h5>
+                    </div>
                     <div className="row">
                       <div
                         className="col-sm-6 col-md-5"
@@ -129,7 +132,7 @@ class About extends React.Component {
                   <div className="col-md-6">
                     <div className="about-me pt-4 pt-md-0">
                       <div className="title-box-2">
-                        <h5 className="title-left">Skills & Experience</h5>
+                        <h5 className="title-left">Experiences</h5>
                       </div>
                       <div>
                         <h6>Experience</h6>
