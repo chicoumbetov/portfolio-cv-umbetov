@@ -30,7 +30,7 @@ import Portfolio from './components/portfolio.jsx';
 //import Contact from './components/contact.jsx';
 //import BackToTop from './components/back-top.jsx';
 //import Preloader from './components/preloader';
-//import Education from './components/education';
+import Education from './components/education';
 
 
 
@@ -39,6 +39,7 @@ ReactDOM.render(
         <Navbar />
         <About />
         <Portfolio />
+        <Education />
     </React.Fragment>,
 document.getElementById('root'));
 
