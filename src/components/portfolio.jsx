@@ -192,8 +192,8 @@ class Portfolio extends React.Component {
 
               {/*6Project */}
               <li class="col-md-4 col-xs-4">
-                <a href={stockscroll1} data-lightbox="gallery-vmarine"
-                ><img alt="foto" src={stockscroll1} className="img-fluid" />
+                <a href={stockscroll1} data-lightbox="gallery-vmarine">
+                  <img alt="foto" src={stockscroll1} className="img-fluid" />
                   <div class="decription-wrap">
                     <div class="image-bg">
                       <p class="desc">FAQ Landing Page</p>
@@ -206,14 +206,14 @@ class Portfolio extends React.Component {
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
-                    </a>
+                </a>
                 <a
                   href={stockscroll3}
                   data-lightbox="gallery-smth"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
-                    </a>
+                </a>
               </li>
             </ul>
             {/*<!--/.PORTFOLIO IMAGE END-->*/}
