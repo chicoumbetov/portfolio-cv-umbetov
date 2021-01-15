@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-cv-umbetov/static/css/main.a07314a0.chunk.css",
-    "main.js": "/portfolio-cv-umbetov/static/js/main.496d3f58.chunk.js",
-    "main.js.map": "/portfolio-cv-umbetov/static/js/main.496d3f58.chunk.js.map",
+    "main.js": "/portfolio-cv-umbetov/static/js/main.bae9f31c.chunk.js",
+    "main.js.map": "/portfolio-cv-umbetov/static/js/main.bae9f31c.chunk.js.map",
     "runtime-main.js": "/portfolio-cv-umbetov/static/js/runtime-main.73fbc7c5.js",
     "runtime-main.js.map": "/portfolio-cv-umbetov/static/js/runtime-main.73fbc7c5.js.map",
     "static/css/2.1f208231.chunk.css": "/portfolio-cv-umbetov/static/css/2.1f208231.chunk.css",
@@ -38,6 +38,6 @@
     "static/css/2.1f208231.chunk.css",
     "static/js/2.a673816b.chunk.js",
     "static/css/main.a07314a0.chunk.css",
-    "static/js/main.496d3f58.chunk.js"
+    "static/js/main.bae9f31c.chunk.js"
   ]
 }
