@@ -13,9 +13,9 @@ import './style.css'; //about separate box
 
 //import js libraries
 //import 'jquery/dist/jquery.min.js';
-import 'popper.js/dist/popper.min.js';
-import 'bootstrap/dist/js/bootstrap.min.js';
-import './libs/easing.js';
+import 'popper.js/dist/popper.min.js';        //Navbar
+import 'bootstrap/dist/js/bootstrap.min.js';  //Navbar
+import './libs/easing.js';                    //Navbar
 //import 'lightbox2/dist/js/lightbox.min.js';
 
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -26,7 +26,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Navbar from './components/navbar.jsx';
 //import Intro from './components/intro.jsx';
 import About from './components/about.jsx';
-//import Portfolio from './components/portfolio.jsx';
+import Portfolio from './components/portfolio.jsx';
 //import Contact from './components/contact.jsx';
 //import BackToTop from './components/back-top.jsx';
 //import Preloader from './components/preloader';
@@ -38,7 +38,7 @@ ReactDOM.render(
     <React.Fragment>
         <Navbar />
         <About />
-       
+        <Portfolio />
     </React.Fragment>,
 document.getElementById('root'));
 
