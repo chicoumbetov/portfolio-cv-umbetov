@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-cv-umbetov/static/css/main.a07314a0.chunk.css",
-    "main.js": "/portfolio-cv-umbetov/static/js/main.bae9f31c.chunk.js",
-    "main.js.map": "/portfolio-cv-umbetov/static/js/main.bae9f31c.chunk.js.map",
+    "main.js": "/portfolio-cv-umbetov/static/js/main.f99b0f76.chunk.js",
+    "main.js.map": "/portfolio-cv-umbetov/static/js/main.f99b0f76.chunk.js.map",
     "runtime-main.js": "/portfolio-cv-umbetov/static/js/runtime-main.73fbc7c5.js",
     "runtime-main.js.map": "/portfolio-cv-umbetov/static/js/runtime-main.73fbc7c5.js.map",
     "static/css/2.1f208231.chunk.css": "/portfolio-cv-umbetov/static/css/2.1f208231.chunk.css",
@@ -21,6 +21,7 @@
     "static/media/2.c1272ba6.png": "/portfolio-cv-umbetov/static/media/2.c1272ba6.png",
     "static/media/3.2e79e9ab.JPG": "/portfolio-cv-umbetov/static/media/3.2e79e9ab.JPG",
     "static/media/5sformat.0310f6f8.png": "/portfolio-cv-umbetov/static/media/5sformat.0310f6f8.png",
+    "static/media/ReactJS_CV_UMBETOV.8adeb5aa.pdf": "/portfolio-cv-umbetov/static/media/ReactJS_CV_UMBETOV.8adeb5aa.pdf",
     "static/media/contactus.22086f52.png": "/portfolio-cv-umbetov/static/media/contactus.22086f52.png",
     "static/media/earth.a08c82a6.jpg": "/portfolio-cv-umbetov/static/media/earth.a08c82a6.jpg",
     "static/media/font-awesome.css": "/portfolio-cv-umbetov/static/media/fontawesome-webfont.f691f37e.woff",
@@ -38,6 +39,6 @@
     "static/css/2.1f208231.chunk.css",
     "static/js/2.a673816b.chunk.js",
     "static/css/main.a07314a0.chunk.css",
-    "static/js/main.bae9f31c.chunk.js"
+    "static/js/main.f99b0f76.chunk.js"
   ]
 }
