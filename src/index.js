@@ -13,15 +13,17 @@ import './style.css'; //about separate box
 
 //import js libraries
 //import 'jquery/dist/jquery.min.js';
-//import 'popper.js/dist/popper.min.js';
-//import 'bootstrap/dist/js/bootstrap.min.js';
-//import './libs/easing.js';
+import 'popper.js/dist/popper.min.js';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import './libs/easing.js';
 //import 'lightbox2/dist/js/lightbox.min.js';
+
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 //import * as serviceWorker from './serviceWorker';
 
 //import components
-//import Navbar from './components/navbar.jsx';
+import Navbar from './components/navbar.jsx';
 //import Intro from './components/intro.jsx';
 import About from './components/about.jsx';
 //import Portfolio from './components/portfolio.jsx';
@@ -34,7 +36,7 @@ import About from './components/about.jsx';
 
 ReactDOM.render(
     <React.Fragment>
-        
+        <Navbar />
         <About />
        
     </React.Fragment>,
