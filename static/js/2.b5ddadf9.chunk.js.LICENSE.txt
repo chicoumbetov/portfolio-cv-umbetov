@@ -38,6 +38,20 @@ object-assign
   */
 
 /*!
+ * Lightbox v2.11.3
+ * by Lokesh Dhakar
+ *
+ * More info:
+ * http://lokeshdhakar.com/projects/lightbox2/
+ *
+ * Copyright Lokesh Dhakar
+ * Released under the MIT license
+ * https://github.com/lokesh/lightbox2/blob/master/LICENSE
+ *
+ * @preserve
+ */
+
+/*!
  * jQuery JavaScript Library v3.5.1
  * https://jquery.com/
  *
@@ -50,6 +64,8 @@ object-assign
  *
  * Date: 2020-05-04T22:49Z
  */
+
+/*! jQuery v3.5.1 | (c) JS Foundation and other contributors | jquery.org/license */
 
 /** @license React v0.20.1
  * scheduler.production.min.js
