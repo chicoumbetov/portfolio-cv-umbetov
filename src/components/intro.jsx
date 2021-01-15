@@ -2,6 +2,7 @@ import React from "react";
 import "./stars.scss";
 import Typed from "react-typed";
 import './css/aiya/style.css'
+import CV from '../ReactJS_CV_UMBETOV.pdf'
 
 class Intro extends React.Component {
   render() {
@@ -43,7 +44,7 @@ class Intro extends React.Component {
                   View projects
                 </a>
               </p>
-              <a class="primary_btn" href="ReactJS_CV_UMBETOV.pdf">
+              <a class="primary_btn" href={CV} target="blank">
                 <span>Download CV</span>
               </a>
             </div>
