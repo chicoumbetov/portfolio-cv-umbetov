@@ -142,6 +142,25 @@ const Projectlinks = () => {
                                                 </a>
                                             </li>
                                         </div>
+                                        {/*Project 8 */}
+                                        <div className="projectlinks">
+                                            <li>
+                                                <a
+                                                    href="https://github.com/chicoumbetov/portfolio-cv-umbetov"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    <div className="row">
+                                                        <span className="ico-circle">
+                                                            <i className="ion-social-github"></i>
+                                                        </span>
+                                                        <h6>8. Link to React JS code of this actual portfolio-cv web site
+                                                        </h6>
+                                                        
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </div>
 
                                     </ul>
                                 </div>
