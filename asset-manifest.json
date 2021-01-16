@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-cv-umbetov/static/css/main.b9ef83a0.chunk.css",
-    "main.js": "/portfolio-cv-umbetov/static/js/main.76719daa.chunk.js",
-    "main.js.map": "/portfolio-cv-umbetov/static/js/main.76719daa.chunk.js.map",
+    "main.css": "/portfolio-cv-umbetov/static/css/main.05556548.chunk.css",
+    "main.js": "/portfolio-cv-umbetov/static/js/main.bf3ad021.chunk.js",
+    "main.js.map": "/portfolio-cv-umbetov/static/js/main.bf3ad021.chunk.js.map",
     "runtime-main.js": "/portfolio-cv-umbetov/static/js/runtime-main.73fbc7c5.js",
     "runtime-main.js.map": "/portfolio-cv-umbetov/static/js/runtime-main.73fbc7c5.js.map",
     "static/css/2.0abaa027.chunk.css": "/portfolio-cv-umbetov/static/css/2.0abaa027.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.b5ddadf9.chunk.js.map": "/portfolio-cv-umbetov/static/js/2.b5ddadf9.chunk.js.map",
     "index.html": "/portfolio-cv-umbetov/index.html",
     "static/css/2.0abaa027.chunk.css.map": "/portfolio-cv-umbetov/static/css/2.0abaa027.chunk.css.map",
-    "static/css/main.b9ef83a0.chunk.css.map": "/portfolio-cv-umbetov/static/css/main.b9ef83a0.chunk.css.map",
+    "static/css/main.05556548.chunk.css.map": "/portfolio-cv-umbetov/static/css/main.05556548.chunk.css.map",
     "static/js/2.b5ddadf9.chunk.js.LICENSE.txt": "/portfolio-cv-umbetov/static/js/2.b5ddadf9.chunk.js.LICENSE.txt",
     "static/media/1.c1c8709a.png": "/portfolio-cv-umbetov/static/media/1.c1c8709a.png",
     "static/media/1.f4ac1837.png": "/portfolio-cv-umbetov/static/media/1.f4ac1837.png",
@@ -20,16 +20,15 @@
     "static/media/2.312c2300.JPG": "/portfolio-cv-umbetov/static/media/2.312c2300.JPG",
     "static/media/2.c1272ba6.png": "/portfolio-cv-umbetov/static/media/2.c1272ba6.png",
     "static/media/3.2e79e9ab.JPG": "/portfolio-cv-umbetov/static/media/3.2e79e9ab.JPG",
+    "static/media/3x4.a8e44bf6.jpg": "/portfolio-cv-umbetov/static/media/3x4.a8e44bf6.jpg",
     "static/media/5sformat.0310f6f8.png": "/portfolio-cv-umbetov/static/media/5sformat.0310f6f8.png",
+    "static/media/LisbonWebSummit.42ff8eb0.jpg": "/portfolio-cv-umbetov/static/media/LisbonWebSummit.42ff8eb0.jpg",
     "static/media/ReactJS_CV_UMBETOV.821978fa.pdf": "/portfolio-cv-umbetov/static/media/ReactJS_CV_UMBETOV.821978fa.pdf",
     "static/media/contactus.22086f52.png": "/portfolio-cv-umbetov/static/media/contactus.22086f52.png",
     "static/media/earth.a08c82a6.jpg": "/portfolio-cv-umbetov/static/media/earth.a08c82a6.jpg",
     "static/media/font-awesome.css": "/portfolio-cv-umbetov/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/home.6aabdad8.png": "/portfolio-cv-umbetov/static/media/home.6aabdad8.png",
     "static/media/ionicons.css": "/portfolio-cv-umbetov/static/media/ionicons.b45d332f.svg",
-    "static/media/male.cadeca2c.png": "/portfolio-cv-umbetov/static/media/male.cadeca2c.png",
-    "static/media/male1.33b5179e.png": "/portfolio-cv-umbetov/static/media/male1.33b5179e.png",
-    "static/media/myImage.d37bb1c9.png": "/portfolio-cv-umbetov/static/media/myImage.d37bb1c9.png",
     "static/media/page.0c58537e.png": "/portfolio-cv-umbetov/static/media/page.0c58537e.png",
     "static/media/shoepage.ccf06924.png": "/portfolio-cv-umbetov/static/media/shoepage.ccf06924.png",
     "static/media/simple-project.c6cb208e.png": "/portfolio-cv-umbetov/static/media/simple-project.c6cb208e.png"
@@ -38,7 +37,7 @@
     "static/js/runtime-main.73fbc7c5.js",
     "static/css/2.0abaa027.chunk.css",
     "static/js/2.b5ddadf9.chunk.js",
-    "static/css/main.b9ef83a0.chunk.css",
-    "static/js/main.76719daa.chunk.js"
+    "static/css/main.05556548.chunk.css",
+    "static/js/main.bf3ad021.chunk.js"
   ]
 }
