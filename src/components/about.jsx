@@ -71,7 +71,12 @@ class About extends React.Component {
         {
           id: "third-p-about",
           content:
-            "2017-2018 : Junior Developer at Codebusters. Mainly in HTML5 & CSS3, React JS 1fit.app project"
+            "Jan. 2017 - Aug. 2018 : Junior Developer at Codebusters. Mainly in HTML5 & CSS3, React JS 1fit.app project"
+        },
+        {
+          id: "forth-p-about",
+          content:
+            "2017 : Project Manager on International Exhibition Astana-Expo 2017 "
         }
       ]
     };
