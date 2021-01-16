@@ -43,7 +43,7 @@ class Contact extends React.Component {
                       </div>
                       
                       <div>
-                        <h6>Phone: +33 07 66 198985</h6>
+                        <h6>Phone: +33 07 66 19 89 85</h6>
                         <h6>E-mail: shynggys.umbetov@yahoo.com</h6>
                       
                       </div>

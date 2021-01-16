@@ -1,5 +1,5 @@
 import React from "react";
-import myImage from "../img/myImage.png";
+//import myImage from "../img/myImage.png";
 
 class About extends React.Component {
   constructor() {
@@ -134,9 +134,7 @@ class About extends React.Component {
                       <div className="title-box-2">
                         <h5 className="title-left">Experiences</h5>
                       </div>
-                      <div>
-                        <h6>Experience</h6>
-                      </div>
+                      
                       {this.state.about_me.map(content => {
                         return (
                           <p className="lead" key={content.id}>

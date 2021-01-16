@@ -7,20 +7,19 @@ Author URI:  http://themeforest.net/user/BdgPixel
 /*---------- a. portfolio -----------*/
 
 ul.portfolio-image {
-  list-style: none;
+  
   position: relative;
   width: 100%;
-  padding: 0;
-  margin: 0;
+  
 }
 ul.portfolio-image li {
-  float: left;
-  display: block;
+  
+  display: flex;
   list-style: none;
   position: relative;
   display: inline-block;
   overflow: hidden;
-  padding-top: 46%;
+  padding-top: 30%;
 }
 ul.portfolio-image li:hover {
   cursor: pointer;
@@ -38,7 +37,7 @@ ul.portfolio-image li:hover .description-wrap {
 ul.portfolio-image li img {
   position: absolute;
   width: 100%;
-  height: 130%;
+  height: 100%;
   left: 0;
   top: 0;
   -webkit-filter: grayscale(100%);
@@ -50,8 +49,9 @@ ul.portfolio-image li .decription-wrap {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(242, 242, 242, 0.4);
-  padding: 10px;
+  background: linear-gradient(to right, #1345e6 0%, #85e70d 0%, #1345e6 100%);
+  opacity: 0.6;
+  padding: 5px;
   transition: background, 0.5s;
 }
 ul.portfolio-image li .image-bg {
@@ -81,7 +81,7 @@ ul.portfolio-image li .image-bg {
 ul.portfolio-image li .desc {
   position: absolute;
   z-index: 1;
-  top: 45%;
+  top: 35%;
   left: 0;
   display: table-cell;
   right: 0;
@@ -99,14 +99,14 @@ ul.portfolio-image li .desc {
   font-weight: 500;
   font-size: 14px;
   line-height: 50px;
-  padding: 0 38px;
+  padding: 0 20px;
   outline: none !important;
   text-align: center;
   cursor: pointer;
   text-transform: uppercase;
   border-radius: 5px;
   background-size: 200% auto;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .primary_btn:hover {

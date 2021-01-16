@@ -1,7 +1,7 @@
 @media screen and (max-width: 480px){
 	/*----- layout ----*/
 	.grey-bg, .white-bg{
-		padding: 40px 0; 
+		padding: 20px 0; 
 	}
 	/*---- hero -----*/
 	.hero-content{
@@ -54,7 +54,7 @@
 	/*------ header -----*/	
 	.for-sticky{ padding: 0; }
 	.logo-nav { margin-left: 0;}
-	.menu-button{margin-right: 15px;}
+	.menu-button{margin-right: 10px;}
 	.ma-infinitypush-wrapper.ma-infinitypush-active-button.ma-infinitypush-button-right .ma-infinitypush-button{
 		left: -65px;
 	}

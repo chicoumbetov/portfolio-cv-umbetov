@@ -1,0 +1,15 @@
+.projectlinks{
+    font-style: italic;
+    margin-top: 25px;
+}
+
+.projectlinks-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+ul.projectlinks-image {
+    width: 100%;
+    padding: 10px 20px;
+}

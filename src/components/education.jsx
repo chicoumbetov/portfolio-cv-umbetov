@@ -8,18 +8,18 @@ class Education extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
+        { id: "HTML5_skill", content: "HTML5", porcentage: "90%", value: "80" },
         { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
         {
           id: "ReactJS_skill",
-          content: "React JS Web dev - coursera",
+          content: "React JS Web Dev - coursera certificate",
           porcentage: "100%",
           value: "30"
         },
         {
           id: "Bootstrap_skill",
           content: "Bootstrap coursera certificate",
-          porcentage: "80%",
+          porcentage: "100%",
           value: "80"
         }
       ],
@@ -53,21 +53,11 @@ class Education extends React.Component {
                 <div className="box-shadow-full">
                   <div className="row">
                     <div className="col-md-6">
+                      <div className="title-box-2">
+                        <h2 className="title-left">Education</h2>
+                      </div>
                       <div className="row">
-                        <div
-                          className="col-sm-6 col-md-5"
-                          style={{ margin: "0 auto" }}
-                        >
-                          <div
-                            className="about-img"
-                            style={{ textAlign: "center" }}
-                          >
-                            <img
-                              className="img-fluid rounded b-shadow-a"
-                              alt=""
-                            />
-                          </div>
-                        </div>
+
                       </div>
                       <div className="skill-mf">
                         <p className="title-s">Certificates</p>
@@ -96,10 +86,22 @@ class Education extends React.Component {
                     </div>
                     <div className="col-md-6">
                       <div className="about-me pt-4 pt-md-0">
-                        <div className="title-box-2">
-                          <h5 className="title-left">Education</h5>
+                        <div
+                          className="col-sm-6 col-md-5"
+                          style={{ margin: "0 auto" }}
+                        >
+                          <div
+                            className="about-img"
+                            style={{ textAlign: "center" }}
+                          >
+                            <img
+                              className="img-fluid rounded b-shadow-a"
+                              alt=""
+                            />
+                          </div>
                         </div>
 
+                        <p className="title-s">Education</p>
                         {this.state.about_me.map(content => {
                           return (
                             <p className="lead" key={content.id}>
