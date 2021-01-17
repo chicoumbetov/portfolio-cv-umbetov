@@ -17,8 +17,8 @@ class About extends React.Component {
         {
           id: "ReactJS_skill",
           content: "ReactJS",
-          porcentage: "80%",
-          value: "80"
+          porcentage: "50%",
+          value: "50"
         },
         {
           id: "Python_skill",
@@ -55,6 +55,36 @@ class About extends React.Component {
           content: "Laptop mechanical reparation",
           porcentage: "70%",
           value: "70"
+        },
+        {
+          id: "French",
+          content: "French",
+          porcentage: "80%",
+          value: "80"
+        },
+        {
+          id: "English",
+          content: "English",
+          porcentage: "90%",
+          value: "90"
+        },
+        {
+          id: "Russian",
+          content: "Russian",
+          porcentage: "98%",
+          value: "98"
+        },
+        {
+          id: "Spanish",
+          content: "Spanish",
+          porcentage: "30%",
+          value: "30"
+        },
+        {
+          id: "Kazakh",
+          content: "Kazakh",
+          porcentage: "90%",
+          value: "90"
         }
       ],
       about_me: [
@@ -94,22 +124,7 @@ class About extends React.Component {
                     <div className="title-box-2">
                       <h5 className="title-left">Skills</h5>
                     </div>
-                    <div className="row">
-                      <div
-                        className="col-sm-6 col-md-5"
-                        style={{ margin: "0 auto" }}
-                      >
-                        <div
-                          className="about-img"
-                          style={{ textAlign: "center" }}
-                        >
-                          <img
-                            className="img-fluid rounded b-shadow-a"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                    </div>
+                    
                     <div className="skill-mf">
                       {/* <p className="title-s">Skill</p> */}
                       {this.state.skills.map(skill => {

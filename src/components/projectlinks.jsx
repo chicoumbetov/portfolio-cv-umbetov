@@ -135,8 +135,9 @@ const Projectlinks = () => {
                                                         <span className="ico-circle">
                                                             <i className="ion-social-github"></i>
                                                         </span>
-                                                        <h6>7. Social media project based on React JS, Redux, REST API connected to server from :
+                                                        <h6>7. Social media project based on React JS, Redux,Typescript.
                                                         </h6>
+                                                        <h6> REST API connected to server from : </h6>
                                                         <h6>https://social-network.samuraijs.com/</h6>
                                                     </div>
                                                 </a>

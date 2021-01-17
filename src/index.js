@@ -32,6 +32,7 @@ import BackToTop from './components/back-top.jsx';
 import Preloader from './components/preloader';
 import Education from './components/education';
 import Projectlinks from './components/projectlinks';
+import Certificates from './components/certificates';
 
 
 
@@ -43,6 +44,7 @@ ReactDOM.render(
         <Portfolio />
         <Projectlinks />
         <Education />
+        <Certificates />
         <BackToTop />
         <Contact />
         <Preloader />

@@ -12,7 +12,7 @@ class Education extends React.Component {
         { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
         {
           id: "ReactJS_skill",
-          content: "React JS Web Dev - coursera certificate",
+          content: "React JS Web Dev - coursera",
           porcentage: "100%",
           value: "30"
         },
