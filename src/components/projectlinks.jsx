@@ -42,7 +42,7 @@ const Projectlinks = () => {
                                         <div className="projectlinks">
                                             <li>
                                                 <a
-                                                    href="https://chicoumbetov.github.io/social_media/"
+                                                    href="https://chicoumbetov.github.io/minsk/"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                 >
@@ -59,7 +59,7 @@ const Projectlinks = () => {
                                         <div className="projectlinks">
                                             <li>
                                                 <a
-                                                    href="https://chicoumbetov.github.io/social_media/"
+                                                    href="https://github.com/chicoumbetov/smooth-scroll-project/tree/master"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                 >
