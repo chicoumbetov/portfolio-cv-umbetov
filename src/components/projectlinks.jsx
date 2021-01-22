@@ -42,7 +42,7 @@ const Projectlinks = () => {
                                         <div className="projectlinks">
                                             <li>
                                                 <a
-                                                    href="https://chicoumbetov.github.io/minsk/"
+                                                    href="https://github.com/chicoumbetov/minsk/"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                 >
