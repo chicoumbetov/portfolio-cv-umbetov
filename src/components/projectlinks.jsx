@@ -42,7 +42,7 @@ const Projectlinks = () => {
                                         <div className="projectlinks">
                                             <li>
                                                 <a
-                                                    href="https://github.com/chicoumbetov/minsk/"
+                                                    href="https://chicoumbetov.github.io/minsk/"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                 >
@@ -162,6 +162,26 @@ const Projectlinks = () => {
                                                 </a>
                                             </li>
                                         </div>
+                                        {/*Project 9 */}
+                                        <div className="projectlinks">
+                                            <li>
+                                                <a
+                                                    href="https://chicoumbetov.github.io/todo-react-typescript/"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    <div className="row">
+                                                        <span className="ico-circle">
+                                                            <i className="ion-social-github"></i>
+                                                        </span>
+                                                        <h6>9. Typescript To do app
+                                                        </h6>
+                                                        
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </div>
+
 
                                     </ul>
                                 </div>
