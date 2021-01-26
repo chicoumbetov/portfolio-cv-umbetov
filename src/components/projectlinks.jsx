@@ -181,7 +181,25 @@ const Projectlinks = () => {
                                                 </a>
                                             </li>
                                         </div>
-
+                                        {/*Project 10 */}
+                                        <div className="projectlinks">
+                                            <li>
+                                                <a
+                                                    href="https://chicoumbetov.github.io/react-typescript-quiz/"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    <div className="row">
+                                                        <span className="ico-circle">
+                                                            <i className="ion-social-github"></i>
+                                                        </span>
+                                                        <h6>10. Typescript Quiz app. Fetch data from opentdb.com(Trivia database)
+                                                        </h6>
+                                                        
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </div>
 
                                     </ul>
                                 </div>
