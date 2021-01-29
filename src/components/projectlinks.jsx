@@ -200,6 +200,25 @@ const Projectlinks = () => {
                                                 </a>
                                             </li>
                                         </div>
+                                        {/*Project 11 */}
+                                        <div className="projectlinks">
+                                            <li>
+                                                <a
+                                                    href="https://chicoumbetov.github.io/keep-in-touch/"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    <div className="row">
+                                                        <span className="ico-circle">
+                                                            <i className="ion-social-github"></i>
+                                                        </span>
+                                                        <h6>11. Angular, Typescript keep-in-touch social media
+                                                        </h6>
+                                                        
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </div>
 
                                     </ul>
                                 </div>
