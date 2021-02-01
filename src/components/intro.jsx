@@ -2,7 +2,7 @@ import React from "react";
 import "./stars.scss";
 import Typed from "react-typed";
 import './css/aiya/style.css'
-import CV from '../CV_UMBETOV.pdf'
+import CV from '../CV_Dev_UMBETOV.pdf'
 
 class Intro extends React.Component {
   render() {
