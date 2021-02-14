@@ -2,7 +2,7 @@ import React from "react";
 import "./stars.scss";
 import Typed from "react-typed";
 import './css/aiya/style.css'
-import CV from '../CV_Dev_UMBETOV.pdf'
+import CV from '../CV_UMBETOV_Dev.pdf'
 
 class Intro extends React.Component {
   render() {
@@ -16,9 +16,9 @@ class Intro extends React.Component {
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
-              <h3 className="intro-title mb-4">
+              <h6 className="intro-title mb-4">
                 Hello, My name is Shynggys.
-                </h3>
+              </h6>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">

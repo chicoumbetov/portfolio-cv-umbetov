@@ -20,7 +20,7 @@ class Certificates extends React.Component {
   render() {
     return (
       <div className="edu">
-        <section id="education" className="about-mf sect-pt4 route">
+        <section id="certificats" className="about-mf sect-pt4 route">
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
