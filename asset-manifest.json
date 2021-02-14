@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-cv-umbetov/static/css/main.05556548.chunk.css",
-    "main.js": "/portfolio-cv-umbetov/static/js/main.3ef317e9.chunk.js",
-    "main.js.map": "/portfolio-cv-umbetov/static/js/main.3ef317e9.chunk.js.map",
+    "main.js": "/portfolio-cv-umbetov/static/js/main.a0d67e11.chunk.js",
+    "main.js.map": "/portfolio-cv-umbetov/static/js/main.a0d67e11.chunk.js.map",
     "runtime-main.js": "/portfolio-cv-umbetov/static/js/runtime-main.73fbc7c5.js",
     "runtime-main.js.map": "/portfolio-cv-umbetov/static/js/runtime-main.73fbc7c5.js.map",
     "static/css/2.0abaa027.chunk.css": "/portfolio-cv-umbetov/static/css/2.0abaa027.chunk.css",
@@ -32,7 +32,7 @@
     "static/media/7.CertificateCSSAnimatedComponentsReactJS.63a1ff1d.pdf": "/portfolio-cv-umbetov/static/media/7.CertificateCSSAnimatedComponentsReactJS.63a1ff1d.pdf",
     "static/media/8.I_Certificate_Coursera_ReactJS.9390ec07.pdf": "/portfolio-cv-umbetov/static/media/8.I_Certificate_Coursera_ReactJS.9390ec07.pdf",
     "static/media/9.II_certificate_ReactJS_Coursera.c61b9463.pdf": "/portfolio-cv-umbetov/static/media/9.II_certificate_ReactJS_Coursera.c61b9463.pdf",
-    "static/media/CV_Dev_UMBETOV.decdf79b.pdf": "/portfolio-cv-umbetov/static/media/CV_Dev_UMBETOV.decdf79b.pdf",
+    "static/media/CV_UMBETOV_Dev.9b230236.pdf": "/portfolio-cv-umbetov/static/media/CV_UMBETOV_Dev.9b230236.pdf",
     "static/media/LisbonWebSummit.42ff8eb0.jpg": "/portfolio-cv-umbetov/static/media/LisbonWebSummit.42ff8eb0.jpg",
     "static/media/contactus.22086f52.png": "/portfolio-cv-umbetov/static/media/contactus.22086f52.png",
     "static/media/earth.a08c82a6.jpg": "/portfolio-cv-umbetov/static/media/earth.a08c82a6.jpg",
@@ -48,6 +48,6 @@
     "static/css/2.0abaa027.chunk.css",
     "static/js/2.51aca10c.chunk.js",
     "static/css/main.05556548.chunk.css",
-    "static/js/main.3ef317e9.chunk.js"
+    "static/js/main.a0d67e11.chunk.js"
   ]
 }
