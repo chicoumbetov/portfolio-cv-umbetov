@@ -33,8 +33,8 @@ import stocksimple1 from "../img/simple-project.png";
 import stocksimple2 from "../img/simple-project.png";
 import stocksimple3 from "../img/simple-project.png";
 
-class Portfolio extends React.Component {
-  render() {
+const Portfolio = () => {
+
     return (
       <div>
         <div className="about-mf sect-pt4 route">
@@ -75,7 +75,7 @@ class Portfolio extends React.Component {
                         </div>
 
                         
-                          {/*    <div class="col-md-10 content-right">
+                          {/*    <div className="col-md-10 content-right">
                           <!--PORTFOLIO IMAGE-->*/}
                         
                         <div className="container">
@@ -84,10 +84,10 @@ class Portfolio extends React.Component {
                             
                         
                         
-                          <ul class="portfolio-image">
+                          <ul className="portfolio-image">
                             <div className="row">
                               {/*1st project */}
-                              <li class="col-md-3 col-xs-4">
+                              <li className="col-md-3 col-xs-4">
                                 <a href={stock1fit1} data-lightbox="gallery-vmarine" >
                                   <img alt="foto" src={stock1fit1} className="img-fluid" />
                                   <div class="decription-wrap">
@@ -115,7 +115,7 @@ class Portfolio extends React.Component {
                               <div className="projectsquare"></div>
 
                               {/*2nd Project */}
-                              <li class="col-md-3 col-xs-4">
+                              <li className="col-md-3 col-xs-4">
                                 <a href={stockminsk1} data-lightbox="gallery-todo"
                                 ><img alt="foto" src={stockminsk1} className="img-fluid" />
                                   <div class="decription-wrap">
@@ -143,7 +143,7 @@ class Portfolio extends React.Component {
                               <div className="projectsquare"></div>
 
                               {/*3rd Project */}
-                              <li class="col-md-3 col-xs-4">
+                              <li className="col-md-3 col-xs-4">
                                 <a href={stocksimple1} data-lightbox="gallery-smth"
                                 ><img alt="foto" src={stocksimple1} className="img-fluid" />
                                   <div class="decription-wrap">
@@ -172,7 +172,7 @@ class Portfolio extends React.Component {
 
                               <div className="row">
                               {/*4th Project */}
-                              <li class="col-md-3 col-xs-4">
+                              <li className="col-md-3 col-xs-4">
                                 <a href={stockpj} data-lightbox="gallery-four">
                                   <img alt="foto" src={stockpj} className="img-fluid" />
                                   <div class="decription-wrap">
@@ -200,7 +200,7 @@ class Portfolio extends React.Component {
                               <div className="projectsquare"></div>
 
                               {/*5th Project */}
-                              <li class="col-md-3 col-xs-4">
+                              <li className="col-md-3 col-xs-4">
                                 <a href={stockhome} data-lightbox="gallery-five"
                                 ><img alt="foto" src={stockhome} className="img-fluid" />
                                   <div class="decription-wrap">
@@ -222,7 +222,7 @@ class Portfolio extends React.Component {
                               <div className="projectsquare"></div>
 
                               {/*6Project */}
-                              <li class="col-md-3 col-xs-4">
+                              <li className="col-md-3 col-xs-4">
                                 <a href={stockscroll1} data-lightbox="gallery-six">
                                   <img alt="foto" src={stockscroll1} className="img-fluid" />
                                   <div class="decription-wrap">
@@ -276,8 +276,7 @@ class Portfolio extends React.Component {
 
 
       </div >
-    );
-  }
+    )
 }
 
 export default Portfolio;

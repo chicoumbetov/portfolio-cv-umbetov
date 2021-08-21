@@ -44,7 +44,7 @@ class Intro extends React.Component {
                   View projects
                 </a>
               </p>
-              <a class="primary_btn" href={CV} target="blank">
+              <a className="primary_btn" href={CV} target="blank">
                 <span>Download CV</span>
               </a>
             </div>
