@@ -98,7 +98,7 @@ const About = () => {
                           </span>
                           <div className="progress">
                             <div
-                              className="progress-bar"
+                              className="progress-bar animate-positive"
                               role="progressbar"
                               style={{ width: skill.porcentage }}
                               aria-valuenow={skill.value}
