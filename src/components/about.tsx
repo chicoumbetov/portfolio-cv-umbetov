@@ -125,9 +125,9 @@ const About = () => {
                     )}
                     <h5 className="title-left">Languages</h5>
                     {languages.map(lang => (
-                        <div key={lang.id}>
-                            {lang.content}
-                        </div>
+                        <a key={lang.id}>
+                            {`${lang.content};   `}
+                        </a>
                         )
                       )
                     }

@@ -2,7 +2,7 @@ import React from "react";
 import "./stars.scss";
 import Typed from "react-typed";
 import './css/aiya/style.css'
-import CV from '../CV_UMBETOV_Dev.pdf'
+import CV from '../CV_Dev_UMBETOV.pdf'
 
 class Intro extends React.Component {
   render() {
@@ -17,33 +17,44 @@ class Intro extends React.Component {
           <div className="table-cell">
             <div className="container">
               <h6 className="intro-title mb-4">
-                Hello, My name is Shynggys.
+                Welcome
+              </h6>
+              <h6 className="intro-title mb-4">
+                Shynggys UMBETOV's portfolio
               </h6>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
                   <Typed
                     strings={[
-                      "This is my portfolio website",
-                      "I am React JS Front End Developer",
-                      "Click on 'View projects' to check portfolio "
+                      "Website developed using React JS",
+                      "I am React Mobile Developer",
+                      "As well as React JS, AWS Fullstack Dev",
+                      "Click on check portfolio "
                     ]}
-                    typeSpeed={75}
-                    backDelay={1100}
-                    backSpeed={30}
+                    typeSpeed={90}
+                    backDelay={800}
+                    backSpeed={90}
                     loop
                   />
                 </strong>
               </p>
               <p className="pt-3">
+                {/**
                 <a
                   className="btn btn-primary btn js-scroll px-4"
                   href="#work"
                   role="button"
                 >
-                  View projects
+                  Check portfolio
                 </a>
+                */}
+                <a className="primary_btn" href="#work" role="button">
+                <span>Check portfolio</span>
+              </a>
               </p>
+              
+
               <a className="primary_btn" href={CV} target="blank">
                 <span>Download CV</span>
               </a>

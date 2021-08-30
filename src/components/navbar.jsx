@@ -90,7 +90,7 @@ class Navbar extends React.Component {
             <img
               src={this.state.logo}
               alt="logo"
-              style={{ maxWidth: "50px" }}
+              style={{ maxWidth: "50px", borderRadius: "10px" }}
             />
           </a>
           <button
