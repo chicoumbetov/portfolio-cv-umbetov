@@ -24,13 +24,14 @@ const initSkillsData = [
   { id: "HTML5_skill", content: "HTML5", porcentage: "90%", value: 90 },
   { id: "CSS3_skill", content: "CSS3", porcentage: "90%", value: 90 },
   { id: "JavaScript_skill", content: "JavaScript", porcentage: "80%", value: 90 },
-  { id: "ReactJS_skill", content: "ReactJS", porcentage: "80%", value: 80 },
+  { id: "ReactJS_skill", content: "ReactJS , React Native", porcentage: "80%", value: 80 },
   { id: "Typescript_skill", content: "Typescript", porcentage: "80%", value: 80 },
-
 ]
 
 const addSkillData = [
   { id: "AWS_skill", content: "AWS", porcentage: "60%", value: 60 },
+  { id: "Apollo_GraphQL_skill", content: "Apollo GraphQL", porcentage: "80%", value: 80 },
+  { id: "Rest_API_skill", content: "REST API", porcentage: "80%", value: 80 },
   { id: "Github_skill", content: "Github", porcentage: "80%", value: 80 },
   { id: "Trello_skill", content: "Trello & Office tools", porcentage: "90%", value: 90 },
   { id: "Laptop_mechanical_reparation_skill", content: "Laptop mechanical reparation", porcentage: "70%", value: 70 }, 
@@ -82,6 +83,7 @@ const About = () => {
           <div className="col-sm-12">
             <div className="box-shadow-full">
               <div className="row">
+
                 <div className="col-md-6">
                   <div className="title-box-2">
                     <h5 className="title-left">Competences</h5>
@@ -133,6 +135,57 @@ const About = () => {
                     }
                   </div>
                 </div>
+
+              </div>
+              <div className="row">
+                
+                <div className="col-md-6">
+                  <div className="title-box-2">
+                    <h5 className="title-left">Additional skills</h5>
+                  </div>
+                  
+                  <div className="skill-mf">
+                    {/* <p className="title-s">Skill</p> */}
+                    {addSkillData.map(skill => {
+                      return (
+                        <React.Fragment key={skill.id}>
+                          <span>{skill.content}</span>{" "}
+                          <span className="pull-right">
+                            {skill.porcentage}
+                          </span>
+                          <div className="progress">
+                            <div
+                              className="progress-bar animate-positive"
+                              role="progressbar"
+                              style={{ width: skill.porcentage }}
+                              aria-valuenow={skill.value}
+                              aria-valuemin={0}
+                              aria-valuemax={100}
+                            ></div>
+                          </div>
+                        </React.Fragment>
+                      );
+                    })}
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="about-me pt-4 pt-md-0">
+                    {/**
+                    <div className="title-box-2">
+                      <h5 className="title-left">Experiences</h5>
+                    </div>
+                     */}
+                    
+                    {/**experiences.map(content => (
+                        <p className="lead" key={content.id}>
+                          {content.content}
+                        </p>
+                      )
+                    )*/}
+
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
