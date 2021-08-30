@@ -825,6 +825,7 @@ CONTACT
 
 .contact-mf {
   margin-top: 4rem;
+  
 }
 
 /*
@@ -956,6 +957,7 @@ BUTTON
 @media (min-width: 768px) {
   .box-shadow-full {
     padding: 3rem;
+    border-radius: 2rem;
   }
 
   .navbar-b.navbar-trans .nav-item,
