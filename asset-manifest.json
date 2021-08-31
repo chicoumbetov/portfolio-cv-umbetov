@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-cv-umbetov/static/css/main.be87bade.chunk.css",
-    "main.js": "/portfolio-cv-umbetov/static/js/main.b789c2fa.chunk.js",
-    "main.js.map": "/portfolio-cv-umbetov/static/js/main.b789c2fa.chunk.js.map",
+    "main.css": "/portfolio-cv-umbetov/static/css/main.e727b5e5.chunk.css",
+    "main.js": "/portfolio-cv-umbetov/static/js/main.ccc6166a.chunk.js",
+    "main.js.map": "/portfolio-cv-umbetov/static/js/main.ccc6166a.chunk.js.map",
     "runtime-main.js": "/portfolio-cv-umbetov/static/js/runtime-main.73fbc7c5.js",
     "runtime-main.js.map": "/portfolio-cv-umbetov/static/js/runtime-main.73fbc7c5.js.map",
     "static/css/2.0abaa027.chunk.css": "/portfolio-cv-umbetov/static/css/2.0abaa027.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.d6997058.chunk.js.map": "/portfolio-cv-umbetov/static/js/2.d6997058.chunk.js.map",
     "index.html": "/portfolio-cv-umbetov/index.html",
     "static/css/2.0abaa027.chunk.css.map": "/portfolio-cv-umbetov/static/css/2.0abaa027.chunk.css.map",
-    "static/css/main.be87bade.chunk.css.map": "/portfolio-cv-umbetov/static/css/main.be87bade.chunk.css.map",
+    "static/css/main.e727b5e5.chunk.css.map": "/portfolio-cv-umbetov/static/css/main.e727b5e5.chunk.css.map",
     "static/js/2.d6997058.chunk.js.LICENSE.txt": "/portfolio-cv-umbetov/static/js/2.d6997058.chunk.js.LICENSE.txt",
     "static/media/1.Front-end Web Development-coursera_certificateReactJS.be1eb903.pdf": "/portfolio-cv-umbetov/static/media/1.Front-end Web Development-coursera_certificateReactJS.be1eb903.pdf",
     "static/media/1.c1c8709a.png": "/portfolio-cv-umbetov/static/media/1.c1c8709a.png",
@@ -47,7 +47,7 @@
     "static/js/runtime-main.73fbc7c5.js",
     "static/css/2.0abaa027.chunk.css",
     "static/js/2.d6997058.chunk.js",
-    "static/css/main.be87bade.chunk.css",
-    "static/js/main.b789c2fa.chunk.js"
+    "static/css/main.e727b5e5.chunk.css",
+    "static/js/main.ccc6166a.chunk.js"
   ]
 }
