@@ -32,9 +32,9 @@ class Intro extends React.Component {
                       "As well as React JS, AWS Fullstack Dev",
                       "Click on check portfolio "
                     ]}
-                    typeSpeed={90}
-                    backDelay={800}
-                    backSpeed={90}
+                    typeSpeed={30}
+                    backDelay={1100}
+                    backSpeed={20}
                     loop
                   />
                 </strong>
