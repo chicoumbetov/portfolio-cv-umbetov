@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">     
-          Learn React. Create React app and publish.
+          React app
       </header>
     </div>
   );

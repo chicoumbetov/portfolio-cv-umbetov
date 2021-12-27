@@ -1,3 +1,7 @@
+import oneFit from "../img/1fit.app.png";
+import carousel from "../img/carousel/screencapture-localhost-3000-2021-01-06-23_01_05.png";
+import image from "../img/image1.jpg";
+
 export const sliderItems = [
     {
       id: 1,
@@ -25,18 +29,48 @@ export const sliderItems = [
   export const categories = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "SHIRT STYLE!",
+      img: oneFit,
+      title: "1fit.app",
+      projectLink: "https://1fit.app",
     },
     {
       id: 2,
       img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "LOUNGEWEAR LOVE",
+      title: "Omedom",
+      projectLink: "https://app.omedom.com",
+
     },
     {
       id: 3,
       img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      title: "LIGHT JACKETS",
+      title: "scanflock",
+      projectLink: "https://app.omedom.com",
+
+    },
+    {
+      id: 4,
+      img: oneFit,
+      title: "klubnest",
+      projectLink: "https://klubnest.fr",
+
+    },
+    {
+      id: 5,
+      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      title: "wedding organizer",
+      projectLink: "https://app.omedom.com",
+    },
+    {
+      id: 6,
+      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      title: "buyers jungle",
+      projectLink: "https://app.omedom.com",
+    },
+    {
+      id: 7,
+      img: image,
+      title: "e-commerce shop",
+      projectLink: "https://app.omedom.com",
     },
   ];
 

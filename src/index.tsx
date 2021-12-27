@@ -12,15 +12,13 @@ import 'lightbox2/dist/css/lightbox.min.css'    //понять
 import './style.css'; //about separate box
 
 //import js libraries
-import 'jquery/dist/jquery.min.js';            //Разобрать
+import 'jquery/dist/jquery.min.js';
 import 'popper.js/dist/popper.min.js';        //Navbar
 import 'bootstrap/dist/js/bootstrap.min.js';  //Navbar
 import './libs/easing.js';                    //Navbar
-import 'lightbox2/dist/js/lightbox.min.js'; //узнать
+import 'lightbox2/dist/js/lightbox.min.js';
 
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-
-//import * as serviceWorker from './serviceWorker';
 
 //import components
 import Navbar from './components/navbar.jsx';
@@ -33,8 +31,6 @@ import Preloader from './components/preloader';
 import Education from './components/education';
 import Projectlinks from './components/projectlinks';
 import Certificates from './components/certificates';
-
-
 
 ReactDOM.render(
     <React.Fragment>
@@ -51,7 +47,3 @@ ReactDOM.render(
     </React.Fragment>,
 document.getElementById('root'));
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-//reportWebVitals();

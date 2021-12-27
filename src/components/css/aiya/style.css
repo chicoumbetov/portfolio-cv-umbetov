@@ -14,7 +14,6 @@ ul.portfolio-image {
 }
 ul.portfolio-image li {
   
-  display: flex;
   list-style: none;
   position: relative;
   display: inline-block;
@@ -36,7 +35,7 @@ ul.portfolio-image li:hover .image-bg {
   border-radius: 10px;
 }
 ul.portfolio-image li:hover .description-wrap {
-  background: rgba(13, 100, 240, 0.6);
+  /* background: rgba(13, 100, 240, 0.6); */
 }
 ul.portfolio-image li img {
   position: absolute;
@@ -53,15 +52,14 @@ ul.portfolio-image li .decription-wrap {
   height: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(to right, #1345e6 0%, #85e70d 0%, #1345e6 100%);
+  /* background: linear-gradient(to right, #1345e6 0%, #85e70d 0%, #1345e6 100%); */
   opacity: 0.6;
   padding: 5px;
   transition: background, 0.5s;
 }
 ul.portfolio-image li .image-bg {
-  color: #2f2f2f;
   background: #ffffff;
-  background: rgba(255, 255, 255, 0.9);
+  /*background: rgba(255, 255, 255, 0.9);*/
   font-size: 14px;
   text-transform: uppercase;
   width: 100%;
