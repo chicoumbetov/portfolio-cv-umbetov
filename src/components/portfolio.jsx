@@ -3,6 +3,7 @@ import './css/aiya/responsive.css'
 import './css/aiya/style.css'
 import './css/aiya/portfolio.css'
 import './css/aiya/normalize.css'
+import styled from "styled-components";
 
 //import stock
 import stock1fit1 from "../img/1fit.app.png";
@@ -32,6 +33,28 @@ import stockpj2 from "../img/photojournal/2.png";
 import stocksimple1 from "../img/simple-project.png";
 import stocksimple2 from "../img/simple-project.png";
 import stocksimple3 from "../img/simple-project.png";
+import CategoryItem from "./CategoryItem";
+import {mobile} from "../responsive";
+import {categories} from "../mockData/data";
+
+
+const Container = styled.div`
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  ${mobile({ padding: "0px", flexDirection:"column" })}
+
+`;
+
+const Categories = () => {
+  return (
+      <Container>
+        {categories.map((item) => (
+            <CategoryItem item={item} key={item.id} />
+        ))}
+      </Container>
+  );
+};
 
 const Portfolio = () => {
 
@@ -249,6 +272,7 @@ const Portfolio = () => {
                               </div>
 
                           </ul>
+                            <Categories/>
                           {/*<!--/.PORTFOLIO IMAGE END-->*/}
                         
                         

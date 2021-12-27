@@ -2,7 +2,8 @@ import React from "react";
 import "./stars.scss";
 import Typed from "react-typed";
 import './css/aiya/style.css'
-import CV from '../CV_Dev_UMBETOV.pdf'
+import CV_eng from '../cv/CV_Eng_UMBETOV_frontend_engineer.pdf'
+import CV_fr from '../cv/CV_Fr_Shynggys_UMBETOV_software_engineer.pdf'
 
 class Intro extends React.Component {
   render() {
@@ -17,10 +18,10 @@ class Intro extends React.Component {
           <div className="table-cell">
             <div className="container">
               <h6 className="intro-title mb-4">
-                Welcome
+                Welcome to portfolio
               </h6>
               <h6 className="intro-title mb-4">
-                Shynggys UMBETOV's portfolio
+                Shynggys UMBETOV
               </h6>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
@@ -53,10 +54,13 @@ class Intro extends React.Component {
                 <span>Check portfolio</span>
               </a>
               </p>
-              
 
-              <a className="primary_btn" href={CV} target="blank">
-                <span>Download CV</span>
+              <a className="primary_btn" href={CV_fr} target="blank">
+                <span>Download french CV</span>
+              </a>
+
+              <a className="primary_btn" href={CV_eng} target="blank">
+                <span>Download english CV</span>
               </a>
             </div>
           </div>
