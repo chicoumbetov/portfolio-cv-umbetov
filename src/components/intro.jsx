@@ -51,17 +51,20 @@ class Intro extends React.Component {
                 </a>
                 */}
                 <a className="primary_btn" href="#work" role="button">
-                <span>Check portfolio</span>
-              </a>
+                    <span>Check portfolio</span>
+                </a>
               </p>
 
-              <a className="primary_btn" href={CV_fr} target="blank">
-                <span>Download french CV</span>
-              </a>
 
-              <a className="primary_btn" href={CV_eng} target="blank">
-                <span>Download english CV</span>
-              </a>
+                  <a className="primary_btn" href={CV_fr} target="blank">
+                      <span>Download french CV</span>
+                  </a>
+                  <div className="pt-3">
+                      <a className="primary_btn" href={CV_eng} target="blank">
+                          <span>Download english CV</span>
+                      </a>
+                  </div>
+
             </div>
           </div>
         </div>
