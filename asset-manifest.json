@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-cv-umbetov/static/css/main.e727b5e5.chunk.css",
-    "main.js": "/portfolio-cv-umbetov/static/js/main.e1af86d6.chunk.js",
-    "main.js.map": "/portfolio-cv-umbetov/static/js/main.e1af86d6.chunk.js.map",
+    "main.css": "/portfolio-cv-umbetov/static/css/main.977a4578.chunk.css",
+    "main.js": "/portfolio-cv-umbetov/static/js/main.3252e83c.chunk.js",
+    "main.js.map": "/portfolio-cv-umbetov/static/js/main.3252e83c.chunk.js.map",
     "runtime-main.js": "/portfolio-cv-umbetov/static/js/runtime-main.73fbc7c5.js",
     "runtime-main.js.map": "/portfolio-cv-umbetov/static/js/runtime-main.73fbc7c5.js.map",
-    "static/css/2.0abaa027.chunk.css": "/portfolio-cv-umbetov/static/css/2.0abaa027.chunk.css",
-    "static/js/2.d6997058.chunk.js": "/portfolio-cv-umbetov/static/js/2.d6997058.chunk.js",
-    "static/js/2.d6997058.chunk.js.map": "/portfolio-cv-umbetov/static/js/2.d6997058.chunk.js.map",
+    "static/css/2.85e2e94e.chunk.css": "/portfolio-cv-umbetov/static/css/2.85e2e94e.chunk.css",
+    "static/js/2.8ab3c32f.chunk.js": "/portfolio-cv-umbetov/static/js/2.8ab3c32f.chunk.js",
+    "static/js/2.8ab3c32f.chunk.js.map": "/portfolio-cv-umbetov/static/js/2.8ab3c32f.chunk.js.map",
     "index.html": "/portfolio-cv-umbetov/index.html",
-    "static/css/2.0abaa027.chunk.css.map": "/portfolio-cv-umbetov/static/css/2.0abaa027.chunk.css.map",
-    "static/css/main.e727b5e5.chunk.css.map": "/portfolio-cv-umbetov/static/css/main.e727b5e5.chunk.css.map",
-    "static/js/2.d6997058.chunk.js.LICENSE.txt": "/portfolio-cv-umbetov/static/js/2.d6997058.chunk.js.LICENSE.txt",
+    "static/css/2.85e2e94e.chunk.css.map": "/portfolio-cv-umbetov/static/css/2.85e2e94e.chunk.css.map",
+    "static/css/main.977a4578.chunk.css.map": "/portfolio-cv-umbetov/static/css/main.977a4578.chunk.css.map",
+    "static/js/2.8ab3c32f.chunk.js.LICENSE.txt": "/portfolio-cv-umbetov/static/js/2.8ab3c32f.chunk.js.LICENSE.txt",
     "static/media/1.Front-end Web Development-coursera_certificateReactJS.be1eb903.pdf": "/portfolio-cv-umbetov/static/media/1.Front-end Web Development-coursera_certificateReactJS.be1eb903.pdf",
     "static/media/1.c1c8709a.png": "/portfolio-cv-umbetov/static/media/1.c1c8709a.png",
     "static/media/1.f4ac1837.png": "/portfolio-cv-umbetov/static/media/1.f4ac1837.png",
@@ -32,7 +32,8 @@
     "static/media/7.CertificateCSSAnimatedComponentsReactJS.63a1ff1d.pdf": "/portfolio-cv-umbetov/static/media/7.CertificateCSSAnimatedComponentsReactJS.63a1ff1d.pdf",
     "static/media/8.I_Certificate_Coursera_ReactJS.9390ec07.pdf": "/portfolio-cv-umbetov/static/media/8.I_Certificate_Coursera_ReactJS.9390ec07.pdf",
     "static/media/9.II_certificate_ReactJS_Coursera.c61b9463.pdf": "/portfolio-cv-umbetov/static/media/9.II_certificate_ReactJS_Coursera.c61b9463.pdf",
-    "static/media/CV_Dev_UMBETOV.6fe2f01b.pdf": "/portfolio-cv-umbetov/static/media/CV_Dev_UMBETOV.6fe2f01b.pdf",
+    "static/media/CV_Eng_UMBETOV_frontend_engineer.1bd6e88d.pdf": "/portfolio-cv-umbetov/static/media/CV_Eng_UMBETOV_frontend_engineer.1bd6e88d.pdf",
+    "static/media/CV_Fr_Shynggys_UMBETOV_software_engineer.9a852e85.pdf": "/portfolio-cv-umbetov/static/media/CV_Fr_Shynggys_UMBETOV_software_engineer.9a852e85.pdf",
     "static/media/LisbonWebSummit.42ff8eb0.jpg": "/portfolio-cv-umbetov/static/media/LisbonWebSummit.42ff8eb0.jpg",
     "static/media/contactus.22086f52.png": "/portfolio-cv-umbetov/static/media/contactus.22086f52.png",
     "static/media/earth.a08c82a6.jpg": "/portfolio-cv-umbetov/static/media/earth.a08c82a6.jpg",
@@ -45,9 +46,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.73fbc7c5.js",
-    "static/css/2.0abaa027.chunk.css",
-    "static/js/2.d6997058.chunk.js",
-    "static/css/main.e727b5e5.chunk.css",
-    "static/js/main.e1af86d6.chunk.js"
+    "static/css/2.85e2e94e.chunk.css",
+    "static/js/2.8ab3c32f.chunk.js",
+    "static/css/main.977a4578.chunk.css",
+    "static/js/main.3252e83c.chunk.js"
   ]
 }
