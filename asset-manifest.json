@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-cv-umbetov/static/css/main.977a4578.chunk.css",
-    "main.js": "/portfolio-cv-umbetov/static/js/main.a3eef726.chunk.js",
-    "main.js.map": "/portfolio-cv-umbetov/static/js/main.a3eef726.chunk.js.map",
+    "main.css": "/portfolio-cv-umbetov/static/css/main.aa58eac0.chunk.css",
+    "main.js": "/portfolio-cv-umbetov/static/js/main.96d5e1d0.chunk.js",
+    "main.js.map": "/portfolio-cv-umbetov/static/js/main.96d5e1d0.chunk.js.map",
     "runtime-main.js": "/portfolio-cv-umbetov/static/js/runtime-main.73fbc7c5.js",
     "runtime-main.js.map": "/portfolio-cv-umbetov/static/js/runtime-main.73fbc7c5.js.map",
     "static/css/2.85e2e94e.chunk.css": "/portfolio-cv-umbetov/static/css/2.85e2e94e.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.8ab3c32f.chunk.js.map": "/portfolio-cv-umbetov/static/js/2.8ab3c32f.chunk.js.map",
     "index.html": "/portfolio-cv-umbetov/index.html",
     "static/css/2.85e2e94e.chunk.css.map": "/portfolio-cv-umbetov/static/css/2.85e2e94e.chunk.css.map",
-    "static/css/main.977a4578.chunk.css.map": "/portfolio-cv-umbetov/static/css/main.977a4578.chunk.css.map",
+    "static/css/main.aa58eac0.chunk.css.map": "/portfolio-cv-umbetov/static/css/main.aa58eac0.chunk.css.map",
     "static/js/2.8ab3c32f.chunk.js.LICENSE.txt": "/portfolio-cv-umbetov/static/js/2.8ab3c32f.chunk.js.LICENSE.txt",
     "static/media/1.Front-end Web Development-coursera_certificateReactJS.be1eb903.pdf": "/portfolio-cv-umbetov/static/media/1.Front-end Web Development-coursera_certificateReactJS.be1eb903.pdf",
     "static/media/1.c1c8709a.png": "/portfolio-cv-umbetov/static/media/1.c1c8709a.png",
@@ -39,8 +39,12 @@
     "static/media/earth.a08c82a6.jpg": "/portfolio-cv-umbetov/static/media/earth.a08c82a6.jpg",
     "static/media/font-awesome.css": "/portfolio-cv-umbetov/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/home.6aabdad8.png": "/portfolio-cv-umbetov/static/media/home.6aabdad8.png",
+    "static/media/image1.e5cc5381.jpg": "/portfolio-cv-umbetov/static/media/image1.e5cc5381.jpg",
     "static/media/ionicons.css": "/portfolio-cv-umbetov/static/media/ionicons.b45d332f.svg",
+    "static/media/js.8db84fe4.png": "/portfolio-cv-umbetov/static/media/js.8db84fe4.png",
+    "static/media/node.78fdb3a9.png": "/portfolio-cv-umbetov/static/media/node.78fdb3a9.png",
     "static/media/page.0c58537e.png": "/portfolio-cv-umbetov/static/media/page.0c58537e.png",
+    "static/media/react.24023612.png": "/portfolio-cv-umbetov/static/media/react.24023612.png",
     "static/media/shoepage.ccf06924.png": "/portfolio-cv-umbetov/static/media/shoepage.ccf06924.png",
     "static/media/simple-project.c6cb208e.png": "/portfolio-cv-umbetov/static/media/simple-project.c6cb208e.png"
   },
@@ -48,7 +52,7 @@
     "static/js/runtime-main.73fbc7c5.js",
     "static/css/2.85e2e94e.chunk.css",
     "static/js/2.8ab3c32f.chunk.js",
-    "static/css/main.977a4578.chunk.css",
-    "static/js/main.a3eef726.chunk.js"
+    "static/css/main.aa58eac0.chunk.css",
+    "static/js/main.96d5e1d0.chunk.js"
   ]
 }
