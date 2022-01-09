@@ -1,3 +1,8 @@
+import Git from "../img/techno_logos/git.png"
+import Javascript from "../img/techno_logos/js.png"
+import NodeJs from "../img/techno_logos/node.png"
+import React from "../img/techno_logos/react.png"
+
 export const initLangData = [
     {
         id: "French",
@@ -50,10 +55,6 @@ export const initExpData = [
     }
 ]
 
-import Git from "../img/techno_logos/git.png"
-import Javascript from "../img/techno_logos/js.png"
-import NodeJs from "../img/techno_logos/node.png"
-import React from "../img/techno_logos/react.png"
 export const initSkillsData = [
     { id: "HTML5_skill", content: "HTML5", porcentage: "90%", value: 90, techno: ''},
     { id: "CSS3_skill", content: "CSS3", porcentage: "90%", value: 90, techno: '' },

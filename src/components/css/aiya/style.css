@@ -6,6 +6,10 @@ Author URI:  http://themeforest.net/user/BdgPixel
 /*----------------------------------------- 7) Sections --------------------------------------------------*/
 /*---------- a. portfolio -----------*/
 
+.portfolio-container {
+  width: 100%;
+}
+
 ul.portfolio-image {
   
   position: relative;
@@ -120,4 +124,57 @@ ul.portfolio-image li .desc {
 .primary_btn:hover {
   background-position: right center;
   color: #b5b5b5;
+}
+
+.all_projects_container {
+  margin-bottom: 104px;
+}
+@media (max-width: 992px) {
+  .all_projects_container {
+    margin-bottom: 120px;
+  }
+}
+
+.all_projects {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 32px; */
+  height: 100%;
+}
+.project-card{
+  display: flex;
+  box-shadow: 0 3px 20px #3C3C3B26;
+  border-radius: 20px;
+  flex-direction: column;
+  padding: 0;
+}
+@media (min-width: 768px) and (max-width: 992px){
+  .project-card{
+    /*flex-direction: row;*/
+  }
+}
+
+.project-card-media {
+  height: 400px;
+  overflow: hidden;
+}
+.intervenant-card-image {
+  padding: 0;
+  height: 221px;
+  width: 100%;
+}
+.project-card-image img {
+  border-radius: 20px 20px 0 0;
+  height: 100%;
+  width: 100%;
+}
+
+.project-information {
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  height: 100%;
+}
+.project-titre {
+
 }

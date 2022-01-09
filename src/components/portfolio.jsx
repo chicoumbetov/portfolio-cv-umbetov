@@ -46,13 +46,11 @@ const Container = styled.div`
 `;
 
 const Categories = () => {
-    return (
-        <Container className={"row flex-wrap col-12"}>
+    return <div className="portfolio-container">
             {categories.map((item) => (
-                <CategoryItem class={"col-4"} item={item} key={item.id}/>
+                <CategoryItem item={item} key={item.id}/>
             ))}
-        </Container>
-    );
+        </div>;
 };
 
 const Portfolio = () => {
@@ -89,7 +87,6 @@ const Portfolio = () => {
                                                                 </div>
                                                             </a>
 
-
                                                             <div className="line-mf"></div>
                                                         </div>
 
@@ -99,8 +96,7 @@ const Portfolio = () => {
                                             </div>
 
 
-                                            {/*    <div className="col-md-10 content-right">
-                          <!--PORTFOLIO IMAGE-->*/}
+                                            {/* <!--PORTFOLIO IMAGE-->*/}
 
                                             <div className="container">
                                                 <div className="row">
@@ -136,7 +132,6 @@ const Portfolio = () => {
                                                                     jsx-a11y/anchor-has-content warning
                                                                 </a>
                                                             </li>
-                                                            <div className="projectsquare"></div>
 
                                                             {/*2nd Project */}
                                                             <li className="col-md-3 col-xs-4">
@@ -166,7 +161,6 @@ const Portfolio = () => {
                                                                     jsx-a11y/anchor-has-content warning
                                                                 </a>
                                                             </li>
-                                                            <div className="projectsquare"></div>
 
                                                             {/*3rd Project */}
                                                             <li className="col-md-3 col-xs-4">
@@ -195,93 +189,15 @@ const Portfolio = () => {
                                                                 </a>
                                                             </li>
                                                         </div>
-                                                        <div className="projectsquare"></div>
-
-                                                        <div className="row justify-content-start">
-                                                            {/*4th Project */}
-                                                            {/*
-                                                              <li className="col-md-3 col-xs-4">
-                                                                <a href={stockpj} data-lightbox="gallery-four">
-                                                                  <img alt="foto" src={stockpj} className="img-fluid" />
-                                                                  <div class="decription-wrap">
-                                                                    <div class="image-bg">
-                                                                      <p class="desc">Langind page. Photo gallery</p>
-                                                                    </div>
-                                                                  </div>
-                                                                </a>
-                                                                <a
-                                                                  href={stockpj2}
-                                                                  data-lightbox="gallery-four"
-                                                                  style={{ display: "none" }}
-                                                                >
-                                                                  jsx-a11y/anchor-has-content warning
-                                                                </a>
-                                                                <a
-                                                                  href={stockpj2}
-                                                                  data-lightbox="gallery-four"
-                                                                  style={{ display: "none" }}
-                                                                >
-                                                                  jsx-a11y/anchor-has-content warning
-                                                                </a>
-                                                              </li>
-                                                                */}
-
-                                                            {/*5th Project */}
-                                                            {/*
-                                                             <li className="col-md-3 col-xs-4">
-                                                                <a href={stockhome} data-lightbox="gallery-five"
-                                                                ><img alt="foto" src={stockhome} className="img-fluid"/>
-                                                                    <div class="decription-wrap">
-                                                                        <div class="image-bg">
-                                                                            <p class="desc">Restaurant page with local
-                                                                                json-server</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </a>
-                                                                <a
-                                                                    href={stockcontactus}
-                                                                    data-lightbox="gallery-five"
-                                                                    style={{display: "none"}}
-                                                                >
-                                                                    jsx-a11y/anchor-has-content warning
-                                                                </a>
-
-                                                            </li>
-                                                            */}
-
-                                                            {/*6Project */}
-                                                            <li className="col-md-3 col-xs-4">
-                                                                <a href={stockscroll1} data-lightbox="gallery-six">
-                                                                    <img alt="foto" src={stockscroll1}
-                                                                         className="img-fluid"/>
-                                                                    <div class="decription-wrap">
-                                                                        <div class="image-bg">
-                                                                            <p class="desc">Landing Page. Scroll</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </a>
-                                                                <a
-                                                                    href={stockscroll2}
-                                                                    data-lightbox="gallery-six"
-                                                                    style={{display: "none"}}
-                                                                >
-                                                                    jsx-a11y/anchor-has-content warning
-                                                                </a>
-                                                                <a
-                                                                    href={stockscroll3}
-                                                                    data-lightbox="gallery-six"
-                                                                    style={{display: "none"}}
-                                                                >
-                                                                    jsx-a11y/anchor-has-content warning
-                                                                </a>
-                                                            </li>
-                                                        </div>
 
                                                     </ul>
-                                                    <Categories/>
-                                                    {/*<!--/.PORTFOLIO IMAGE END-->*/}
 
-
+                                                    {/*<!--/.PORTFOLIO -->*/}
+                                                </div>
+                                                <div className="row all_projects_container">
+                                                    {categories.map((item) => (
+                                                        <CategoryItem item={item} key={item.id}/>
+                                                    ))}
                                                 </div>
                                             </div>
 
