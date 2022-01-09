@@ -1,6 +1,98 @@
-import oneFit from "../img/1fit.app.png";
 import carousel from "../img/carousel/screencapture-localhost-3000-2021-01-06-23_01_05.png";
-import image from "../img/image1.jpg";
+
+// 1fit.app
+import stock1fit2 from "../img/1fitApp/1fit.app2.png";
+import stock1fit3 from "../img/1fitApp/1fit.app3.png";
+import stock1fit1 from "../img/1fitApp/1fit.app.png";
+
+// omedom
+import omedom1 from "../img/omedom/mon-compte.png";
+import omedom2treso from "../img/omedom/tresory-page.png";
+import omedom3bankAcc from "../img/omedom/bank-account-connection.png";
+import omedom4budgetOption from "../img/omedom/budget-options-page.png";
+import omedom5createImmo from "../img/omedom/creation-immo-page.png";
+import omedom6Budget from "../img/omedom/budget-page.png";
+import omedom7immo from "../img/omedom/immobilier-page.png";
+import omedom8modifNotif from "../img/omedom/modif-notif-page.png";
+import omedom9bankMouv from "../img/omedom/mouvement-bank-page.png";
+import omedom10Mouv from "../img/omedom/mouvement-page.png";
+import omedom11Mouv from "../img/omedom/parameter-doc-generation.png";
+import omedom12RecapWater from "../img/omedom/recap-water.png";
+import omedom13quittanceDownloadPage from "../img/omedom/quittance-download-page.png";
+
+// scanflock
+import scanflock2 from "../img/scanflock/scanflock-mon-cabinet.png";
+import scanflock3 from "../img/scanflock/scanflock-telecons.png";
+
+
+// klubnest
+import klubScreenShot1 from "../img/klubnest/homepage-klubnest.png";
+import klubScreenShot2 from "../img/klubnest/concept-klubnest.png";
+import klubScreenShot3 from "../img/klubnest/tous-klub.png";
+import klubScreenShot4 from "../img/klubnest/presentation_klub.png";
+import klubScreenShot5 from "../img/klubnest/Profil-membre.png";
+import klubScreenShot6 from "../img/klubnest/Rejoignez-nous.png";
+
+// Minsk
+import minsk1 from "../img/minsk/mainpage.png";
+import minsk2 from "../img/minsk/page.png";
+import minsk3 from "../img/minsk/5sformat.png";
+import minsk4 from "../img/minsk/shoepage.png";
+import minsk5 from "../img/simple-project.png";
+import minsk6 from "../img/simple-project.png";
+import minsk7 from "../img/simple-project.png";
+
+// yolla
+import yolla1 from "../img/yolla/About Us.png";
+import yolla2 from "../img/yolla/Bank Details.png";
+import yolla3 from "../img/yolla/Billing information.png";
+import yolla4 from "../img/yolla/Browse Vendor Directory.png";
+import yolla5 from "../img/yolla/Business details and profile setup.png";
+import yolla6 from "../img/yolla/Change password.png";
+import yolla7homepage from "../img/yolla/Home Page-1.png";
+import yolla8 from "../img/yolla/Log in.png";
+import yolla9 from "../img/yolla/Notification settings.png";
+import yolla10 from "../img/yolla/User Confirm Details.png";
+import yolla11 from "../img/yolla/User Dashboard - Request history.png";
+
+// wedding organiser`
+import wedding1 from "../img/wedding/wedding1.png";
+import wedding2 from "../img/wedding/wedding-signUP.png";
+import wedding3 from "../img/wedding/wedding-sign-in.png";
+
+
+// Pure javascript
+import pureJs1 from "../img/pure-javascript/Screenshot 2022-01-09 at 19.50.09.png";
+import pureJs2 from "../img/pure-javascript/Screenshot 2022-01-09 at 19.44.46.png";
+import pureJs3 from "../img/pure-javascript/Screenshot 2022-01-09 at 19.45.04.png";
+import pureJs4 from "../img/pure-javascript/Screenshot 2022-01-09 at 19.45.53.png";
+import pureJs5 from "../img/pure-javascript/Screenshot 2022-01-09 at 19.46.31.png";
+import pureJs6 from "../img/pure-javascript/Screenshot 2022-01-09 at 19.46.38.png";
+import pureJs7 from "../img/pure-javascript/Screenshot 2022-01-09 at 19.47.18.png";
+import pureJs8 from "../img/pure-javascript/Screenshot 2022-01-09 at 19.47.28.png";
+import pureJs9 from "../img/pure-javascript/Screenshot 2022-01-09 at 19.47.37.png";
+import pureJs10 from "../img/pure-javascript/Screenshot 2022-01-09 at 19.47.37.png";
+import pureJs11 from "../img/pure-javascript/Screenshot 2022-01-09 at 19.47.45.png";
+import pureJs12 from "../img/pure-javascript/Screenshot 2022-01-09 at 19.48.33.png";
+
+// React Quiz
+import reactQuiz from "../img/react-quiz.png";
+import reactQuiz2 from "../img/react-quiz2.png";
+
+// Kanape selling
+import kanap1 from "../img/kanape/kanap1.png";
+import kanap2 from "../img/kanape/kanap2.png";
+import kanap3 from "../img/kanape/kanap3.png";
+
+// Oh my food
+import ohmyfood1 from "../img/ohmyfood/ohmyfood.png";
+import ohmyfood2 from "../img/ohmyfood/ohmyfood-mobile.png";
+import ohmyfood3 from "../img/ohmyfood/ohmyfood3.png";
+import ohmyfood4 from "../img/ohmyfood/ohmyfood4.png";
+
+// Reservia
+import reservia1 from "../img/reservia/reservia-hotel.png";
+import reservia2 from "../img/reservia/reservia-hotel-mobile.png";
 
 export const sliderItems = [
     {
@@ -29,48 +121,121 @@ export const sliderItems = [
   export const categories = [
     {
       id: 1,
-      img: oneFit,
+      img: stock1fit1,
       title: "1fit.app",
       projectLink: "https://1fit.app",
+      screenshots: [stock1fit1, stock1fit2, stock1fit3],
+      usedTechno: "React JS, Typescript, HTML5, CSS3, SASS",
     },
     {
       id: 2,
-      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      img: omedom7immo,
       title: "Omedom",
       projectLink: "https://app.omedom.com",
-
+      githubLink: "https://github.com/chicoumbetov/ui_app",
+      screenshots: [omedom1, omedom2treso, omedom3bankAcc, omedom4budgetOption, omedom5createImmo,
+      omedom6Budget, omedom7immo, omedom8modifNotif, omedom9bankMouv, omedom10Mouv, omedom11Mouv, omedom12RecapWater],
+      usedTechno: "React Native, Typescript, AWS cloud services: AppSync, Cognito, Dynamo DB",
     },
     {
       id: 3,
-      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      title: "scanflock",
-      projectLink: "https://app.omedom.com",
-
+      img: scanflock2,
+      title: "Scanflock done, deployment in process",
+      // projectLink: "",
+      githubLink: "https://github.com/chicoumbetov/vetani_app",
+      screenshots: [, scanflock3],
+      usedTechno: "React Native, Typescript, AWS cloud services: AppSync, Cognito, Dynamo DB",
     },
     {
       id: 4,
-      img: oneFit,
-      title: "klubnest",
-      projectLink: "https://klubnest.fr",
-
+      img: klubScreenShot1,
+      title: "Klubnest",
+      projectLink: "https://dev.klubnest.fr/",
+      screenshots: [klubScreenShot1, klubScreenShot2, klubScreenShot3, klubScreenShot4, klubScreenShot5, klubScreenShot6 ],
+      usedTechno: "Javascript, PHP, MySQL, HTML5, CSS3, SASS, Bootstrap, LightSlier, Google maps API",
     },
     {
       id: 5,
-      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "wedding organizer",
-      projectLink: "https://app.omedom.com",
+      img: wedding2,
+      title: "Wedding organizer",
+      projectLink: "https://wedding-organize.netlify.app/",
+      githubLink: "https://github.com/chicoumbetov/wedding-organize",
+      backendLink: "https://wedding-react-js.herokuapp.com/posts",
+      usedTechno: "React, Redux, Express JS, Node JS, MongoDB, HTML5, CSS3",
+      screenshots: [wedding1, wedding3]
     },
     {
       id: 6,
-      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "buyers jungle",
-      projectLink: "https://app.omedom.com",
+      img: kanap1,
+      title: "E - commerce kanapé selling",
+      projectLink: "https://chicoumbetov.github.io/kanap-node-js/",
+      githubLink: "https://github.com/chicoumbetov/kanap-node-js",
+      backendLink: "https://kanap-project.herokuapp.com/api/products",
+      usedTechno: "Javascript, Express JS, Node JS, Mongo DB, HTML5, CSS3",
+      screenshots: [kanap2, kanap3]
+
     },
     {
       id: 7,
-      img: image,
-      title: "e-commerce shop",
-      projectLink: "https://app.omedom.com",
+      img: yolla7homepage,
+      title: "yolla services, Kuala - Lumpur, Indonesia",
+      projectLink: "",
+      githubLink: "https://github.com/aiya94/yolla-app",
+      usedTechno: "React, Redux, Golang",
+      screenshots: [yolla1, yolla2, yolla3, yolla4, yolla5, yolla6, yolla8, yolla9, yolla10, yolla11]
+    },
+    {
+      id: 8,
+      img: minsk1,
+      title: "Belorussian e-commerce shop",
+      projectLink: "https://chicoumbetov.github.io/minsk",
+      screenshots: [minsk2, minsk3, minsk4, minsk5, minsk6, minsk7 ],
+      usedTechno: "React js, HTML5, CSS3",
+    },
+
+
+    {
+      id: 10,
+      img: pureJs2,
+      title: "Pure javascript mini projects collection",
+      projectLink: "https://chicoumbetov.github.io/vladilen-gallery/",
+      githubLink: "https://github.com/chicoumbetov/vladilen-gallery",
+      screenshots: [pureJs1, pureJs3, pureJs4, pureJs5, pureJs6, pureJs7, pureJs8, pureJs9, pureJs10,pureJs11,pureJs12]
+    },
+    {
+      id: 11,
+      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      title: "Buyers jungle in process",
+      // projectLink: "",
+      screenshots: []
+    },
+    {
+      id: 12,
+        img: ohmyfood1,
+        title: "Oh my food restaurant",
+        projectLink: "https://github.com/chicoumbetov/umbetov_shynggys_3_04072021",
+        screenshots: [ohmyfood2, ohmyfood3, ohmyfood4]
+    },
+    {
+      id: 13,
+      img: reactQuiz,
+      title: "Typescript Quiz app. Fetch data from opentdb.com(Trivia database)",
+      projectLink: "https://chicoumbetov.github.io/react-typescript-quiz",
+      screenshots: [reactQuiz2]
+    },
+    {
+      id: 14,
+      img: reservia1,
+      title: "Reservia hotels reservation app",
+      projectLink: "https://chicoumbetov.github.io/umbetov_shynggys_2_18042021/",
+      screenshots: [reservia2]
+    },
+    {
+      id: 15,
+      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      title: "FullStack Resto Angular js App in process",
+      githubLink: "https://github.com/chicoumbetov/resto_angular",
+      screenshots: []
     },
   ];
 

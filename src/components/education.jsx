@@ -54,13 +54,12 @@ class Education extends React.Component {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="title-box-2">
-                        <h2 className="title-left">Education</h2>
+                        <h2 className="title-left">FORMATION</h2>
                       </div>
                       <div className="row">
 
                       </div>
                       <div className="skill-mf">
-                        <p className="title-s">Certificates</p>
                         {this.state.skills.map(skill => {
                           return (
                             <React.Fragment key={skill.id}>
@@ -101,7 +100,6 @@ class Education extends React.Component {
                           </div>
                         </div>
 
-                        <p className="title-s">Education</p>
                         {this.state.about_me.map(content => {
                           return (
                             <p className="lead" key={content.id}>

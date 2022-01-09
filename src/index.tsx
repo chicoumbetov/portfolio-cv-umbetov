@@ -29,7 +29,6 @@ import Contact from './components/contact.jsx';
 import BackToTop from './components/back-top.jsx';
 import Preloader from './components/preloader';
 import Education from './components/education';
-import Projectlinks from './components/projectlinks';
 import Certificates from './components/certificates';
 
 ReactDOM.render(
@@ -38,7 +37,6 @@ ReactDOM.render(
         <Intro />
         <About />
         <Portfolio />
-        <Projectlinks />
         <Education />
         <Certificates />
         <BackToTop />
